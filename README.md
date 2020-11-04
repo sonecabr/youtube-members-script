@@ -3,7 +3,7 @@
 This is a simple example script to extract members from a youtube channel
 
 ## Dependencies:
- - An valid gmail account 
+ - A valid gmail account 
  - An youtube channel owned by the gmail account above
  - Your gmail account need to be allowed to consume members api (details: https://developers.google.com/youtube/v3/docs/members/list?authuser=0)
    `Note: The members.list method replaced the sponsors.list method as of March 31, 2020. This method can only be used with prior approval from YouTube. Please complete this form if your application needs to use this method.`
@@ -15,16 +15,16 @@ pip install -r requirements.txt
 ```
 
 ### Prepare your account
-1 - Go to google developers console
+- Go to google developers console
     https://console.developers.google.com/
-2 - Click on Credentials
-3 - Click on Create credetials
-4 - Choose Oauth client ID
-5 - Choose application type as 'Desktop App'
-6 - Fill the name as you prefer on 'Name input'
-7 - Click on 'Create'
-8 - In Oauth2 Cliend IDS you must see your client and a button to download a json file that contains your authentication details
-9 - Save your credetials file in the same folder as list-members.py script
+- Click on Credentials
+- Click on Create credetials
+- Choose Oauth client ID
+- Choose application type as 'Desktop App'
+- Fill the name as you prefer on 'Name input'
+- Click on 'Create'
+- In Oauth2 Cliend IDS you must see your client and a button to download a json file that contains your authentication details
+- Save your credetials file in the same folder as list-members.py script
 
 
 ## Running
