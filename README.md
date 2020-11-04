@@ -15,6 +15,7 @@ pip install -r requirements.txt
 ```
 
 ### Prepare your account
+#### This steps are following this doc: https://developers.google.com/youtube/v3/guides/auth/installed-apps
 - Go to google developers console
     https://console.developers.google.com/
 - Click on Credentials
